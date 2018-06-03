@@ -34,7 +34,7 @@ class Blockchain extends React.Component {
   
       // If web3.js 1.0 is being used
       if (EmbarkJS.isNewWeb3()) {
-        SimpleStorage.methods.set().send({from: web3.eth.defaultAccount});
+        SimpleStorage.methods.set().call();
         this._addToLog("SimpleStorage.methods.set().send({from: web3.eth.defaultAccount})");
       } else {
         SimpleStorage.set();
@@ -46,20 +46,20 @@ class Blockchain extends React.Component {
 
     sendMoney(e){
       e.preventDefault();
-  
       // If web3.js 1.0 is being used
       if (EmbarkJS.isNewWeb3()) {
-        SimpleStorage.methods.sendMoney().send({from: web3.eth.defaultAccount});
+        const etherVal = web3.utils.toWei('1', 'ether').toString();
+        SimpleStorage.methods.sendMoney(web3.eth.defaultAccount).send({from: web3.eth.defaultAccount, to: SimpleStorage._address, value: etherVal, gas: 210000});
+        console.log(web3.eth.defaultAccount)
         this._addToLog("SimpleStorage.methods.set().send({from: web3.eth.defaultAccount})");
       } else {
         SimpleStorage.sendMoney();
         this._addToLog("#blockchain", "SimpleStorage.set()");
       }
     }
-  
+
     getValue(e){
       e.preventDefault();
-      console.log(this.state.address);
       if (EmbarkJS.isNewWeb3()) {
         SimpleStorage.methods.get().call()
           .then(_value => this.setState({valueGet: _value}))
@@ -69,9 +69,9 @@ class Blockchain extends React.Component {
           .then(_value => this.setState({valueGet: _value}));
         this._addToLog("SimpleStorage.get()");
       }
-      const weiNum = web3.utils.toWei('0.1', 'ether').toString();
-      var result = web3.eth.sendTransaction({to: SimpleStorage._address, value: weiNum, gas: 2100000})
-      console.log(result)
+      //const weiNum = web3.utils.toWei('0.1', 'ether').toString();
+      //var result = web3.eth.sendTransaction({to: SimpleStorage._address, value: weiNum, gas: 2100000})
+      //console.log(result)
       
     }
 

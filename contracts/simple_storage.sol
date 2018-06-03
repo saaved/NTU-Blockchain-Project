@@ -1,6 +1,7 @@
 pragma solidity ^0.4.23;
 
 contract SimpleStorage {
+
   uint randomNumber;
   address moneyAddress = 0xb8d851486d1c953e31a44374aca11151d49b8bb3;
   address thisAddress = this;
@@ -11,7 +12,7 @@ contract SimpleStorage {
   }
 
   function set() public {
-    randomNumber = uint(blockhash(block.number-1))%10;
+    randomNumber = address(thisAddress).balance;
   }
 
   function get() public view returns (uint retVal) {
@@ -22,8 +23,9 @@ contract SimpleStorage {
     return block.number;
   }
 
-  function sendMoney() payable public {
-    thisAddress.transfer(200);
+  function sendMoney(address playerAddress) payable public {
+    address(playerAddress).send(500000000000000000);
+    set();
   }
 
   function getContractAddress() public view returns (address Address) {

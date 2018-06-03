@@ -228,6 +228,126 @@
       "0xcef7516025af2f2234fc38c722932477a5800702cbf9400cb5aefd82ae5d2e2a": {
         "name": "SimpleStorage",
         "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0x3bb4e986faa72e2efa762e46962dca62880e194d8262a7d51887f36af8d10fb4": {
+        "name": "SimpleStorage",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0xbb91696578e747eb67926f708dd1e9db7c293e620c8029faba2b77d28770c3b9": {
+        "name": "SimpleStorage",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0x6c148edf6c519c618ed8adc5ca6654a222cd3314dd0a491c108d35e2e29c2e93": {
+        "name": "SimpleStorage",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      },
+      "0x26ba4014c2ea8ca5a81777438da4399eb0db40a4343d27f9225ecce349f64a15": {
+        "name": "SimpleStorage",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      },
+      "0xf087129ee4919f2f4a0741062256097eb21e50bda762c21c2dc91d992d781557": {
+        "name": "SimpleStorage",
+        "address": "0x2051D39a6220F6126c33DcfaCc72465b6b57cB5d"
+      },
+      "0xe58aed4b91bac8999ff8579bea7c10785515ee29b39720bf3ba4c8d50828e93e": {
+        "name": "SimpleStorage",
+        "address": "0xE79D974F3Ca6A47430af521D0440d79405f3CaC4"
+      },
+      "0x8dc37fe6afa16a664f493c11a65df310904e5690b2e19cb819994e9444b0c847": {
+        "name": "SimpleStorage",
+        "address": "0xF7f3C7510F1E072d7D21D43D7580952Db3230286"
+      },
+      "0x5fdbc498a040b247acaa08c5898231a2f29ec615856e1b131d4930cff92376d3": {
+        "name": "SimpleStorage",
+        "address": "0xFf22741dea1254c802120D48E295a0f5AdDf05e9"
+      },
+      "0xb3249dce52db829f4d28382edf5100562fd0b3e5708c0adb099134dac8d62ee2": {
+        "name": "SimpleStorage",
+        "address": "0x7f847A6DB3D81862c69E0ff7875903f3E51E2413"
+      },
+      "0x4962cf182881f4c7b578925aad6e7bc4d8d408b58952f77f050eab1b012f82e0": {
+        "name": "SimpleStorage",
+        "address": "0x6E26edBDCC073fCDB00B42eE697ae7864df0c1da"
+      },
+      "0xc8bf4c2dadde0f8ef454c08c8e1e427cf5e71fb8ec15e0420f1374e7865dc3df": {
+        "name": "SimpleStorage",
+        "address": "0x602D6A24D1CDd6BEa2aB956e75FDf75AD86816B9"
+      },
+      "0x657b65403557e5e8c67b82c5fccf6d3d8770643fb290920629521b0f551b3e44": {
+        "name": "SimpleStorage",
+        "address": "0x34aD238f0867eE812591E1dDe9f6e2E8dbbBaC1f"
+      },
+      "0xa6a2f0b7765532f9e455606dd982610727f0bd24230170cba6ec3a8553f73c12": {
+        "name": "SimpleStorage",
+        "address": "0xbab7fB3209C91302F406fCe7AF5286FCAE5E9662"
+      },
+      "0xec0454c54e1b941c50cae424a80b17a1b978d04dd4d5dfac6eb683fd90405219": {
+        "name": "SimpleStorage",
+        "address": "0xaecF7f6ed476E6155863B54bCca9aBA8b7e287Dd"
+      },
+      "0xe245448e11dc1ca21b6ab160fef1b1a7be08b7fdfd18445237dd21844dbb272a": {
+        "name": "SimpleStorage",
+        "address": "0x225A97519eD6e5D390D091fDBd41AF302b63520D"
+      },
+      "0xc713ed5fd06c16a0d746b8110847b2aea165147b0f8fe622e0eb4c3e91dd362c": {
+        "name": "SimpleStorage",
+        "address": "0x309F25956F073c2230E1Db82Cc7eCB0e042eC4c0"
+      },
+      "0xc2693567f0a86ec22eb4d4b6778de8999eca57acbbf374a44ba7cfd0156adc7e": {
+        "name": "SimpleStorage",
+        "address": "0xC64d5Dd171861d49E51c7354c369bF7aab42d87C"
+      },
+      "0x0d786b94de8951a7eb2c033ba804dd62dff11d3fe9fe78d186ea7a5f39f80d9b": {
+        "name": "SimpleStorage",
+        "address": "0xba545088E976469bA808e78E42b6ED70B2A4B0B7"
+      },
+      "0x96bf09c2ac303b8ff8187d9ac888742edb00171f6bea1223c7e9044a4717d2eb": {
+        "name": "SimpleStorage",
+        "address": "0x8806ee8079539009bAe13FB5757DEAb24705F297"
+      },
+      "0x82c60a8dd518ca084131cafc38074bcd6aec428a07b2f7feaaaae78937f7eb74": {
+        "name": "SimpleStorage",
+        "address": "0xD533105E991ee91240351bBddffC483135ea2Cc6"
+      },
+      "0xaf2404236b0d84f6231a2bb1db059f13f3256f6ec6eb0b5af588342057e8a530": {
+        "name": "SimpleStorage",
+        "address": "0xF4Acf2308B78A1EF060B687C9b68E5af84a6a5D2"
+      },
+      "0x3133af39b12c360548ce97fab72e14aa7a1f22ed2eae5707c17fbe5ee2ce15de": {
+        "name": "SimpleStorage",
+        "address": "0x60Bca9DA83FA632d1eE6DeC4CD767eD6141a14A2"
+      },
+      "0x2598ceaa425d633449b6d42d61c47cd128c5e7118d32dadb04f68eceb3cbd64f": {
+        "name": "SimpleStorage",
+        "address": "0x23718498E0Ae1796cdB1c18758FbA25231F58282"
+      },
+      "0xd342d082872e36f212ab4fd44daa84353db22d980e6c0954a0bbca881f72706c": {
+        "name": "SimpleStorage",
+        "address": "0xe5a0ADB282adfcbc69D9c98A98D8db92519Fb444"
+      },
+      "0xe683c20011b5f2b60c14704b5802c1669d2e14632c3c629abb2a621438468554": {
+        "name": "SimpleStorage",
+        "address": "0x5F2aAe0030f39Bedd6766083359d494C55Ff77A7"
+      },
+      "0x0d450517e353876f68eb29e8de6ac9764e337190ff336abc93fd2c331b383a71": {
+        "name": "SimpleStorage",
+        "address": "0x1cFF6a37284513980b2eb60BB64E45A1284944E4"
+      },
+      "0xc5f9ba4378f22110d0150d36e8849df03e2b1521c9a0bbadb574229680d2459f": {
+        "name": "SimpleStorage",
+        "address": "0xE77Bd20Ed16d6841114Bc365f7410aF54D0A3492"
+      },
+      "0x940e7d631385288f2da458bd7ef21e565267ae0e81bd897a1ae24a33e9b9f20b": {
+        "name": "SimpleStorage",
+        "address": "0xa8E335144a2Ae482f617F69A758460B76d42D552"
+      },
+      "0x38639649d4523e522cceb4cd86dae6b93e2ab296177824d2739e9c5b9b74147c": {
+        "name": "SimpleStorage",
+        "address": "0x8db5db189bf7a9A41E3b89fd5f503d7DFdB2997F"
+      },
+      "0x443ba53496a910278868772e34fb3dc344edfab5cb41aacda0470aee5ddf1a58": {
+        "name": "SimpleStorage",
+        "address": "0x84615044f0991AdC89042FC4896229C6E9E28E5c"
       }
     },
     "name": "development"

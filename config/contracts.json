@@ -9,7 +9,7 @@
       "$WEB3",
       "http://localhost:8545"
     ],
-    "gas": "84795738947589384278349374837498723497",
+    "gas": "auto",
     "contracts": {
       "SimpleStorage": {
         "fromIndex": 0,

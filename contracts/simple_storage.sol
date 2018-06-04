@@ -12,7 +12,7 @@ contract SimpleStorage {
   }
 
   function set() public {
-    randomNumber = uint(blockhash(block.number-1))%10 + 1; //address(thisAddress).balance;
+    randomNumber = uint(blockhash(block.number-1))%10 + 1;
   }
 
   function get() public view returns (uint retVal) {
@@ -35,12 +35,8 @@ contract SimpleStorage {
     return thisAddress;
   }
 
-  function getBalance() public view returns (uint bal) { 
-    return thisAddress.balance/1000000000000000000; //division to convert wei -> eth
-  }
-
   function getContractBalance() public view returns (uint bal) {
-    return thisAddress.balance/1000000000000000000;
+    return thisAddress.balance/1000000000000000000; //division to convert wei -> eth
   }
 
 

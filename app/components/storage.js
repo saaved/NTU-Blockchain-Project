@@ -99,6 +99,8 @@ class Storage extends React.Component {
 
     render(){
         return <React.Fragment>
+            <h3>Game 2</h3>
+            {/*
             {
                 !this.props.enabled ?
                 <React.Fragment>
@@ -165,6 +167,7 @@ class Storage extends React.Component {
                 this.state.logs.map((item, i) => <p key={i}>{item}</p>)
             }
             </div>
+        */}
         </React.Fragment>;
     }
 }

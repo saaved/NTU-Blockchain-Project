@@ -449,5 +449,14 @@
       }
     },
     "name": "development"
+  },
+  "0x55b130fa95f995d180aa2eaba13b1aaefb17c38588e08b0ddfd400153b04990d": {
+    "contracts": {
+      "0x25854786fd683d50dc2b17547e3761731470a225941c112927aa625a9b0b3d19": {
+        "name": "SimpleStorage",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      }
+    },
+    "name": "development"
   }
 }

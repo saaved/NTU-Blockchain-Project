@@ -56,13 +56,13 @@ class App extends React.Component {
   }
 
   render(){
-    return (<div><h3>Embark - Usage Example</h3>
+    return (<div><h3>DAppsino by Blockchoklad&#8482;</h3>
       <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
         <Tab eventKey={1} title="Coinflip game">
           <Blockchain />
         </Tab>
 
-        <Tab eventKey={2} title={"Rock paper scissor game"}>
+        <Tab eventKey={2} title={"Game 2"}>
           <Storage />
         </Tab>
         {/*

@@ -51,11 +51,13 @@ class Blockchain extends React.Component {
       var valueGet = this.state.valueGet;
       console.log(this.state);
       console.log(this.state.valueGet);
+      console.log(this.state.valueSet)
       setTimeout(function() { //Start the timer
               
         if(this.state.valueGet > 5) {
 
-    var winSum = (parseInt(this.state.valueSet) + (parseInt(this.state.valueSet) * 0.95))*1.0
+    var winSum = (parseFloat(this.state.valueSet) + (parseFloat(this.state.valueSet) * 0.95))*1.0
+    console.log(winSum)
     document.getElementById("result").innerHTML = '<h3>You won! ' + winSum + ' Ether was sent to your address</h3>';
   } else {
     document.getElementById("result").innerHTML = '<h3>You lost :-( try again!</h3>';

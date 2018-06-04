@@ -7,10 +7,10 @@
 ## Run application
 
 ### embark simulator 
-For testrpc
+For testrpc (http://localhost:8545)
 
 ### embark blockchain
-For Main Ethereum blockchain network (http://localhost:8545)
+For Main Ethereum blockchain network 
 
 ### embark run
 Runs application and enables React webserver (http://localhost:8000)

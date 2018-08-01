@@ -458,5 +458,25 @@
       }
     },
     "name": "development"
+  },
+  "0xc30b4ec129b64b793afe5889c6341a446b8f6b88d4551308b4807a2ef5e7769d": {
+    "contracts": {
+      "0x25854786fd683d50dc2b17547e3761731470a225941c112927aa625a9b0b3d19": {
+        "name": "SimpleStorage",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0xa42d9d9a44590397dca31ff55c318d46c44530a3f7b95cdf238108f9279e2391": {
+        "name": "SimpleStorage",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0x9883cfeff589c96846175896932a097183fa25993e01f6aaa0966a9096b469d4": {
+        "name": "CoinFlip",
+        "address": "0x6427A6200Bed37FC1e512BdeA49D25Aa9089CF47"
+      },
+      "0x7968600ff7fa808ce4833c3c96672cdfbfcddc96a7ef6c2b1e260784aae6fec6": {
+        "name": "CoinFlip",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      }
+    }
   }
 }

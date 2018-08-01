@@ -4,6 +4,8 @@
 
 ### sudo npm install -g embark
 
+### sudo npm -g install ganache-cli
+
 ## Run application
 
 ### embark simulator 

@@ -1,5 +1,5 @@
 
-import Web3 from '/usr/lib/node_modules/embark/js/web3-1.0.min.js';
+import Web3 from '/usr/local/lib/node_modules/embark/js/web3-1.0.min.js';
 
  if (typeof web3 !== 'undefined') {
  } else {
@@ -61,9 +61,9 @@ function __getAccounts(cb) {
 };
 
 var __mainContext = __mainContext || this;
-__mainContext.__LoadManager = function() { this.list = []; this.done = false; }
-__mainContext.__LoadManager.prototype.execWhenReady = function(cb) { if (this.done) { cb(); } else { this.list.push(cb) } }
-__mainContext.__LoadManager.prototype.doFirst = function(todo) { var self = this; todo(function() { self.done = true; self.list.map((x) => x.apply()) }) }
+__mainContext.__LoadManager = function() { this.list = []; this.done = false; this.err = null; }
+__mainContext.__LoadManager.prototype.execWhenReady = function(cb) { if (this.done) { cb(this.err); } else { this.list.push(cb) } }
+__mainContext.__LoadManager.prototype.doFirst = function(todo) { var self = this; todo(function(err) { self.done = true; self.err = err; self.list.map((x) => x.apply(x, [self.err])) }) }
 __mainContext.__loadManagerInstance = new __mainContext.__LoadManager();
 var whenEnvIsLoaded = function(cb) {
   if (typeof document !== 'undefined' && document !== null && !/comp|inter|loaded/.test(document.readyState)) {
@@ -101,8 +101,15 @@ __reduce(["$WEB3","http://localhost:8545"],function(prev, value, next) {
   });
 }, function(err, _result) {
   __getAccounts(function(err, accounts) {
-    web3.eth.defaultAccount = accounts[0];
-    done();
+    
+    if (web3.eth.currentProvider && web3.eth.currentProvider.isMetaMask) {
+      console.log("%cNote: Embark has detected you are in the development environment and using Metamask, please make sure Metamask is connected to your local node", "font-size: 2em");
+    }
+    
+    if (accounts) {
+      web3.eth.defaultAccount = accounts[0];
+    }
+    done(err);
   });
 });
 

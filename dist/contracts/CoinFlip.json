@@ -1,0 +1,149 @@
+{
+  "className": "CoinFlip",
+  "args": [],
+  "code": "608060405260028054600160a060020a0319163017905534801561002257600080fd5b50610263806100326000396000f3006080604052600436106100825763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166332a2c5d0811461008757806342cbb15c146100c55780636d4ce63c146100ec5780636f9fb98a14610101578063b8e010de14610116578063f4b103d41461012d578063f846cabc14610145575b600080fd5b34801561009357600080fd5b5061009c610169565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100d157600080fd5b506100da610185565b60408051918252519081900360200190f35b3480156100f857600080fd5b506100da610189565b34801561010d57600080fd5b506100da61018f565b34801561012257600080fd5b5061012b6101b8565b005b34801561013957600080fd5b5061012b6004356101c9565b61012b73ffffffffffffffffffffffffffffffffffffffff600435166024356101ce565b60025473ffffffffffffffffffffffffffffffffffffffff1690565b4390565b60005490565b600254670de0b6b3a764000073ffffffffffffffffffffffffffffffffffffffff909116310490565b600a60001943014006600101600055565b600055565b6101d66101b8565b6005600a6000194301400611156102335760405173ffffffffffffffffffffffffffffffffffffffff8316906064605f840204830180156108fc02916000818181858888f19350505050158015610231573d6000803e3d6000fd5b505b50505600a165627a7a72305820bc8f016ccc4fdfd9556dfe3635a529afe5a9f0b4c1d82878d14626b30163eaf30029",
+  "runtimeBytecode": "6080604052600436106100825763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166332a2c5d0811461008757806342cbb15c146100c55780636d4ce63c146100ec5780636f9fb98a14610101578063b8e010de14610116578063f4b103d41461012d578063f846cabc14610145575b600080fd5b34801561009357600080fd5b5061009c610169565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100d157600080fd5b506100da610185565b60408051918252519081900360200190f35b3480156100f857600080fd5b506100da610189565b34801561010d57600080fd5b506100da61018f565b34801561012257600080fd5b5061012b6101b8565b005b34801561013957600080fd5b5061012b6004356101c9565b61012b73ffffffffffffffffffffffffffffffffffffffff600435166024356101ce565b60025473ffffffffffffffffffffffffffffffffffffffff1690565b4390565b60005490565b600254670de0b6b3a764000073ffffffffffffffffffffffffffffffffffffffff909116310490565b600a60001943014006600101600055565b600055565b6101d66101b8565b6005600a6000194301400611156102335760405173ffffffffffffffffffffffffffffffffffffffff8316906064605f840204830180156108fc02916000818181858888f19350505050158015610231573d6000803e3d6000fd5b505b50505600a165627a7a72305820bc8f016ccc4fdfd9556dfe3635a529afe5a9f0b4c1d82878d14626b30163eaf30029",
+  "realRuntimeBytecode": "6080604052600436106100825763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166332a2c5d0811461008757806342cbb15c146100c55780636d4ce63c146100ec5780636f9fb98a14610101578063b8e010de14610116578063f4b103d41461012d578063f846cabc14610145575b600080fd5b34801561009357600080fd5b5061009c610169565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100d157600080fd5b506100da610185565b60408051918252519081900360200190f35b3480156100f857600080fd5b506100da610189565b34801561010d57600080fd5b506100da61018f565b34801561012257600080fd5b5061012b6101b8565b005b34801561013957600080fd5b5061012b6004356101c9565b61012b73ffffffffffffffffffffffffffffffffffffffff600435166024356101ce565b60025473ffffffffffffffffffffffffffffffffffffffff1690565b4390565b60005490565b600254670de0b6b3a764000073ffffffffffffffffffffffffffffffffffffffff909116310490565b600a60001943014006600101600055565b600055565b6101d66101b8565b6005600a6000194301400611156102335760405173ffffffffffffffffffffffffffffffffffffffff8316906064605f840204830180156108fc02916000818181858888f19350505050158015610231573d6000803e3d6000fd5b505b50505600a165627a7a72305820bc8f016ccc4fdfd9556dfe3635a529afe5a9f0b4c1d82878d14626b30163eaf30029",
+  "swarmHash": "bc8f016ccc4fdfd9556dfe3635a529afe5a9f0b4c1d82878d14626b30163eaf3",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "122200",
+      "executionCost": "20463",
+      "totalCost": "142663"
+    },
+    "external": {
+      "SimpleStorage(uint256)": "20249",
+      "bet(address,uint256)": "infinite",
+      "get()": "428",
+      "getBlockNumber()": "205",
+      "getContractAddress()": "399",
+      "getContractBalance()": "870",
+      "set()": "20266"
+    }
+  },
+  "functionHashes": {
+    "SimpleStorage(uint256)": "f4b103d4",
+    "bet(address,uint256)": "f846cabc",
+    "get()": "6d4ce63c",
+    "getBlockNumber()": "42cbb15c",
+    "getContractAddress()": "32a2c5d0",
+    "getContractBalance()": "6f9fb98a",
+    "set()": "b8e010de"
+  },
+  "abiDefinition": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getContractAddress",
+      "outputs": [
+        {
+          "name": "Address",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x32a2c5d0"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getBlockNumber",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x42cbb15c"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x6d4ce63c"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getContractBalance",
+      "outputs": [
+        {
+          "name": "bal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x6f9fb98a"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xb8e010de"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "SimpleStorage",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xf4b103d4"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "playerAddress",
+          "type": "address"
+        },
+        {
+          "name": "betAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "bet",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function",
+      "signature": "0xf846cabc"
+    }
+  ],
+  "filename": "coin_flip.sol",
+  "gas": 236387,
+  "gasPrice": null,
+  "type": "file",
+  "deploy": true,
+  "_gasLimit": false,
+  "error": false,
+  "realArgs": [],
+  "deployedAddress": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832",
+  "transactionHash": "0x886b8e168cbbdf15e6c1976f16e8c7eec56fa915aef210dab24fdb62cf330608"
+}
